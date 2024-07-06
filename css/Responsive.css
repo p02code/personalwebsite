@@ -1,0 +1,58 @@
+@media only screen and (max-width: 769px) {
+  .hidden {
+    opacity: 0;
+  }
+  div#Skills_content_show {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .about_me {
+    height: auto;
+    padding: 20px;
+  }
+
+  .abt_header p {
+    font-size: 30px;
+  }
+
+  .about_content {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_content img {
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .image,
+  .about_content_dis {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .about_content_dis {
+    gap: 15px;
+  }
+
+  .about_content_dis p {
+    width: 100%;
+  }
+
+  .title_dis h3 {
+    font-size: 20px;
+  }
+  section#Skills_content {
+    padding-top: 20px;
+  }
+}
